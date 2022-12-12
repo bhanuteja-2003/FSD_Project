@@ -1,0 +1,142 @@
+.adminBody{
+  /* background-color: #CDFCF6;
+  color: white; */
+  padding: 40px;
+  font-family: Sans-Serif;
+  font-size: 20px;
+  background-color:lavender;
+
+}
+
+#aadhar2,
+#district2 {
+  width: 200px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+  margin: 10px;
+}
+
+/* label {
+  color: rgb(255, 7, 7);
+} */
+
+/* #aadhar:focus,
+#aadhar:valid {
+  border-color: #f00000;
+} */
+/* 
+#district:focus,
+#district:valid {
+  border-color: #f00000;
+} */
+
+#table2 {
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+  border-collapse: collapse;
+
+  /* color: #f05800; */
+  margin-top: 50px;
+
+}
+
+#table2,.tah2{
+  /* border: 1px solid rgb(243, 5, 5); */
+  border: 1px solid black;
+  border-collapse: collapse;
+  /* border-radius: 10px; */
+
+}
+
+#table2{
+  width: 100%;
+}
+
+#table2 tr:hover {
+  background-color: whitesmoke;
+}
+
+#table2 tr :nth-child(even) {
+
+  background-color: #f2f2f2;
+}
+
+.tah2{
+  text-align: center;
+  padding: 8px;
+  border: 1px solid black;
+
+  /* border-radius: 10px; */
+}
+
+
+
+/* 
+th {
+  background-color: #04AA6D;
+  color: white;
+} */
+
+#len2 {
+  margin: 10px;
+  width: 50px;
+  box-sizing: border-box;
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 4px;
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+
+
+
+}
+
+/* #len:focus,
+#len:valid {
+  border-color: #f00000;
+} */
+
+#but2 {
+  background-color: whitesmoke;
+  border-radius: 100px;
+  /* border-color: rgb(227, 24, 126); */
+  /* box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px; */
+  /* color: green; */
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#but2:hover {
+  box-shadow: rgba(44, 49, 187, 0.35) 0 -25px 18px -14px inset, rgba(63, 44, 187, 0.25) 0 1px 2px, rgba(61, 44, 187, 0.25) 0 2px 4px, rgba(61, 44, 187, 0.25) 0 4px 8px, rgba(61, 44, 187, 0.25) 0 8px 16px, rgba(80, 44, 187, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+
+}
+
+.delete2 {
+  background-color: rgb(207, 56, 56);
+}
+
+.edit {
+  background-color: rgb(65, 159, 65);
+}
